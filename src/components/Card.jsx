@@ -1,4 +1,5 @@
-import datosUsuarios  from "../data/datosUsuarios"
+import {datosUsuarios}  from "../data/datosUsuarios"
+
 
 
 export const Card = ({nombre}) => {

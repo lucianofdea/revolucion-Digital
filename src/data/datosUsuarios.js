@@ -1,4 +1,4 @@
-const usuario = {
+export const datosUsuarios = {
     nombre: "Juan Perez",
     edad: 30,
     email: "jperez@correo.com",
@@ -11,4 +11,4 @@ const usuario = {
     },
 }
 
-export default usuario;
+
