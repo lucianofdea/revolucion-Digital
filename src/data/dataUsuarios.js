@@ -1,4 +1,4 @@
-export const datosUsuarios = {
+export const dataUsuarios = {
     nombre: "Juan Perez",
     edad: 30,
     email: "jperez@correo.com",

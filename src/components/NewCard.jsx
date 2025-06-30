@@ -1,4 +1,4 @@
-
+import '../../src/App.css';
 
 export const NewCard = ({title, description, source, image }) => {
 
@@ -9,7 +9,7 @@ export const NewCard = ({title, description, source, image }) => {
   return (
     <div className="news-card">
         <img src={imgUrl} alt={title} />
-        <div className="news-content">
+        <div className="news-card">
             <h2>{title}</h2>
             <p>{description}</p>
             <p>

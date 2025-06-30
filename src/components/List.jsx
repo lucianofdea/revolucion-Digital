@@ -1,3 +1,4 @@
+import '../../src/App.css';
 import { dataVehiculos } from "../data/dataVehiculos";
 
 

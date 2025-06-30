@@ -1,0 +1,76 @@
+/* Estilos generales para el contenedor de noticias */
+.news-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.news-container h1, .news-container h2 {
+  text-align: center;
+  color: #222;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+/* Estilos para cada tarjeta de noticia */
+.news-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  padding: 18px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.news-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.15rem;
+  color: #333;
+}
+
+.news-card p {
+  font-size: 0.98rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.news-card .source {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Responsive: para pantallas menores a 600px */
+@media (max-width: 600px) {
+  .news-container {
+    padding: 8px;
+  }
+  .news-list {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .news-card {
+    width: 100%;
+    padding: 12px;
+  }
+  .news-card img {
+    height: 120px;
+  }
+}
